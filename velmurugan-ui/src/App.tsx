@@ -215,9 +215,14 @@ function App() {
               <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center flex-shrink-0">
                 <span className="text-white font-bold text-lg sm:text-xl">V</span>
               </div>
-              <span className="font-bold text-sm sm:text-lg md:text-xl lg:text-2xl bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent leading-tight truncate">
-                Sri Velmurugan Transports and Earthmovers
-              </span>
+              <div className="flex flex-col leading-tight">
+                <span className="font-bold text-xs sm:text-sm md:text-base lg:text-lg bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+                  Sri Velmurugan Transports
+                </span>
+                <span className="font-bold text-xs sm:text-sm md:text-base lg:text-lg bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+                  and Earthmovers
+                </span>
+              </div>
             </div>
             <div className="flex items-center space-x-2 sm:space-x-4 flex-shrink-0">
               <button
