@@ -211,18 +211,18 @@ function App() {
       <nav className="sticky top-0 z-50 bg-white/80 dark:bg-neutral-900/80 backdrop-blur-md shadow-lg border-b border-neutral-200 dark:border-neutral-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2 sm:space-x-3">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
+            <div className="flex items-center space-x-2 sm:space-x-3 flex-1 min-w-0">
+              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center flex-shrink-0">
                 <span className="text-white font-bold text-lg sm:text-xl">V</span>
               </div>
-              <span className="font-bold text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+              <span className="font-bold text-sm sm:text-lg md:text-xl lg:text-2xl bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent leading-tight truncate">
                 Sri Velmurugan Transports and Earthmovers
               </span>
             </div>
-            <div className="flex items-center space-x-2 sm:space-x-4">
+            <div className="flex items-center space-x-2 sm:space-x-4 flex-shrink-0">
               <button
                 onClick={handleContactUsClick}
-                className="px-3 sm:px-6 py-2 bg-gradient-to-r from-primary-700 to-secondary-900 hover:from-primary-700 hover:to-secondary-700 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-glow text-sm sm:text-base"
+                className="px-2 sm:px-6 py-2 bg-gradient-to-r from-primary-700 to-secondary-900 hover:from-primary-700 hover:to-secondary-700 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-glow text-xs sm:text-base"
               >
                 <span className="hidden sm:inline">Contact Us</span>
                 <span className="sm:hidden">Contact</span>
