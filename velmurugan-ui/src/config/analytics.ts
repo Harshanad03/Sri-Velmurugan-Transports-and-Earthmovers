@@ -2,7 +2,7 @@ import ReactGA from 'react-ga4';
 
 // Google Analytics Configuration
 export const GA_CONFIG = {
-  MEASUREMENT_ID: 'G-XXXXXXXXXX', // Replace with your actual GA4 Measurement ID
+  MEASUREMENT_ID: process.env.REACT_APP_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX',
   DEBUG_MODE: process.env.NODE_ENV === 'development',
 };
 
