@@ -542,13 +542,13 @@ function App() {
       </div>
 
       {/* Copyright Footer */}
-      <footer className="py-6 sm:py-8 px-4 bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900 border-t border-neutral-700">
+      <footer className="py-6 sm:py-8 px-4 bg-gradient-to-r from-primary-700 to-secondary-900 border-t border-primary-600">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0">
-            <span className="text-neutral-400 text-sm sm:text-base text-center">
+            <span className="text-white text-sm sm:text-base text-center">
               © 2025 Sri Velmurugan Transports
             </span>
-            <span className="text-neutral-400 text-sm sm:text-base text-center sm:ml-1">
+            <span className="text-white text-sm sm:text-base text-center sm:ml-1">
               and Earthmovers. All rights reserved.
             </span>
           </div>
