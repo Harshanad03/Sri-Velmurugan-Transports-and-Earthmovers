@@ -542,7 +542,7 @@ function App() {
       </div>
 
       {/* Copyright Footer */}
-      <footer className="py-6 sm:py-8 px-4 bg-gradient-to-r from-primary-700 to-secondary-900 border-t border-primary-600">
+      <footer className="py-6 sm:py-8 px-4 bg-gradient-to-r from-primary-700 to-secondary-900 hover:from-primary-700 hover:to-secondary-700 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-glow">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0">
             <span className="text-white text-sm sm:text-base text-center">
