@@ -546,7 +546,7 @@ function App() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center">
             <span className="text-neutral-400 text-sm sm:text-base">
-              © 2024 Sri Velmurugan Transports and Earthmovers. All rights reserved.
+              © 2025 Sri Velmurugan Transports and Earthmovers. All rights reserved.
             </span>
           </div>
         </div>
