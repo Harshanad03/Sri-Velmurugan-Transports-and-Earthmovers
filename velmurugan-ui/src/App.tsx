@@ -517,7 +517,7 @@ function App() {
       {/* Floating WhatsApp & Call Buttons */}
       <div className="fixed bottom-4 sm:bottom-6 right-4 sm:right-6 flex flex-col gap-3 sm:gap-4 z-50">
         <a 
-          href="https://wa.me/+91XXXXXXXXXX" 
+          href="https://wa.me/+919788303040" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="bg-gradient-to-r from-success-500 to-success-600 hover:from-success-600 hover:to-success-700 text-white p-3 sm:p-4 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 animate-float"
@@ -526,7 +526,7 @@ function App() {
           <span className="text-xl sm:text-2xl">💬</span>
         </a>
         <a 
-          href="tel:+91XXXXXXXXXX" 
+          href="tel:+919788303040" 
           className="bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white p-3 sm:p-4 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 animate-float"
           title="Call Us"
           style={{ animationDelay: '1s' }}
