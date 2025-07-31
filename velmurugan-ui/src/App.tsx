@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import ServiceCard from './components/ServiceCard';
 import ContactForm, { ContactFormData } from './components/ContactForm';
-import { initGA, trackPageView, trackButtonClick, trackContactInteraction, trackEvent } from './config/analytics';
+import { initGA, trackPageView, trackButtonClick, trackEvent } from './config/analytics';
 
 // Import local images
 import roughStoneImage from './assets/images/Rough Stone.jpeg';
@@ -161,8 +161,6 @@ function App() {
     window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
   );
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [showContactForm, setShowContactForm] = useState(false);
-  const [selectedService, setSelectedService] = useState<string>('');
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -187,8 +185,6 @@ function App() {
     : services.filter(service => service.category === selectedCategory);
 
   const handleGetQuote = (serviceId: string) => {
-    setSelectedService(serviceId);
-    setShowContactForm(true);
     document.getElementById('contact-section')?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -207,7 +203,6 @@ function App() {
     // Track form submission
     trackEvent('Form', 'Submit', 'Contact Form', 1);
     // Removed alert - the success modal will handle the notification
-    setShowContactForm(false);
   };
 
   return (
