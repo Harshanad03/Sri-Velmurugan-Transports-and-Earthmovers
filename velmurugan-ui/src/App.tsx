@@ -477,7 +477,7 @@ function App() {
       </section>
 
       {/* Happy Clients Section */}
-      <section className="py-12 sm:py-20 px-4 max-w-6xl mx-auto">
+      {/* <section className="py-12 sm:py-20 px-4 max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent animate-fade-in">
           Trusted by Great Companies
         </h2>
@@ -506,7 +506,7 @@ function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section id="contact-section" className="py-12 sm:py-20 px-4 max-w-4xl mx-auto">
