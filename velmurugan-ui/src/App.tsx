@@ -217,7 +217,7 @@ function App() {
               </div>
               <div className="flex flex-col sm:flex-row leading-tight">
                 <span className="font-bold text-xs sm:text-sm md:text-base lg:text-lg bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
-                  Sri Velmurugan Transports
+                  Sri Velmurugan Transport
                 </span>
                 <span className="font-bold text-xs sm:text-sm md:text-base lg:text-lg bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent sm:ml-1">
                   and Earthmovers
@@ -440,7 +440,7 @@ function App() {
           </h2>
           <div className="text-center space-y-4 sm:space-y-6">
             <p className="text-base sm:text-lg lg:text-xl text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Sri Velmurugan Transports is your trusted partner for all construction and agricultural needs. 
+              Sri Velmurugan Transport is your trusted partner for all construction and agricultural needs. 
               We provide high-quality materials and reliable machinery rental services across the region.
             </p>
             <p className="text-base sm:text-lg lg:text-xl text-neutral-700 dark:text-neutral-300 leading-relaxed">
@@ -546,7 +546,7 @@ function App() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0">
             <span className="text-white text-sm sm:text-base text-center">
-              © 2025 Sri Velmurugan Transports
+              © 2025 Sri Velmurugan Transport
             </span>
             <span className="text-white text-sm sm:text-base text-center sm:ml-1">
               and Earthmovers. All rights reserved.
